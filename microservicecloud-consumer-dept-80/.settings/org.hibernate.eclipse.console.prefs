@@ -1,0 +1,3 @@
+default.configuration=microservicecloud-consumer-dept-80
+eclipse.preferences.version=1
+hibernate3.enabled=true
