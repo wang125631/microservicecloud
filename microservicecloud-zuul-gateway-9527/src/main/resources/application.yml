@@ -1,0 +1,20 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservice-zuul-gateway
+   
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+      
+info: 
+  app.name: microservicecloud
+  company.name: www.wpxcloud.xyz
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
