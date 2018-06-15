@@ -11,8 +11,16 @@ eureka:
       defaultZone: http://localhost:7001/eureka
   instance:
     instance-id: gateway-9527.com
-    prefer-ip-address: true
+    prefer-ip-address: true  
       
+zuul:
+  prefix: /wpx/
+  ignored-services: "*"   # 使用"*"注解表示所有程序原始访问服务路径忽略      microservicecloud-dept
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+
+
 info: 
   app.name: microservicecloud
   company.name: www.wpxcloud.xyz

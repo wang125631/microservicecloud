@@ -1,0 +1,9 @@
+#bootstrap.yml 是系统的配置项,优先级别更高
+
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-client  #需要从github上读取的资源名称
+      profile: dev #本次访问的配置项
+      label: master
+      uri: http://localhost:3344 #服务启动通过3344间接与github获取连接 

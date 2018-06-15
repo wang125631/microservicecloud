@@ -8,6 +8,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Data
 @Accessors(chain=true)
+
 public class Dept implements Serializable{
 
 	private Long 	deptno; // 主键
