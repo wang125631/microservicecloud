@@ -1,6 +1,5 @@
 # microservicecloud
 
-
 #什么是微服务?
 	
 	     就目前而言对于微服务业界没有一个统一的,标准的定义.但通常而言,微服务是一种架构模式或者说是一种架构风格,
@@ -171,54 +170,7 @@
     <td>否</td>
     <td>否</td>
   </tr>
-  <tr>							  		  			
-    <td>高可用/容错</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>							  		  			
-    <td>典型应用案例</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-   <tr>							  		  			
-    <td>社区活跃度</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-   <tr>							  		  			
-    <td>学习难度</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>							  		  			
-    <td>文档丰富度</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>							  		  			
-    <td>其他</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+
   
 </table>
  
@@ -244,12 +196,24 @@
  
  
  
- 整理自[尚硅谷](http://www.atguigu.com/)课程[Spring Cloud](http://www.gulixueyuan.com/course/246)
+ 
 
 #问题汇总:
 <ul>
-	<li><a href="https://github.com/wang125631/microservice/blob/master/microservice-api/Lombok.md">Lombok安装使用</a></li>
-	<li><a href="https://github.com/wang125631/microservice/blob/master/microservice-api/Maven-proflie.md">Maven动态获取配置文件</a></li>
-	<li><a href="https://github.com/wang125631/microservice/blob/master/microservice-api/Tomcat-Cluster.md">Tomcat集群</a></li>
-	<li><a href="https://github.com/wang125631/microservice/blob/master/microservice-api/Redis.md">Redis</a></li>
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/lombok%E4%BD%BF%E7%94%A8.md">Lombok安装使用</a></li>
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Rest%E8%B0%83%E7%94%A8.md">Rest微服务</a></li>
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Eureka.md">Eureka</a></li>
+
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Ribbo.md">Ribbo</a></li>
+
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Feign.md">Feign</a></li>
+
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Hystrix.md">Hystrix</a></li>
+
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Hystrix_DashBoard.md">Hystrix_DashBoard</a></li>
+
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Zuul.md">Zuul</a></li>
+	
+	<li><a href="https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/main/java/com/wpx/readme/Config.md">Config</a></li>
+	
 </ul>

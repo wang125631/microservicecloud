@@ -48,8 +48,6 @@ public class DeptController {
 				.setDb_source("no this database in MySQL");
 	}
 	
-	
-	
 	@RequestMapping(value="/list",method=RequestMethod.GET)
 	public List<Dept> list(){
 		return deptService.list();

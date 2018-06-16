@@ -20,5 +20,5 @@ import com.myrule.MyselfRibboRule;
 public class DeptConsumer80_App {
 public static void main(String[] args) throws Exception {
 	SpringApplication.run(DeptConsumer80_App.class, args);
-}
+	}
 }
