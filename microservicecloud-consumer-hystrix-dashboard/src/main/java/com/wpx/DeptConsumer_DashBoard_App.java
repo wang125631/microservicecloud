@@ -19,5 +19,4 @@ public class DeptConsumer_DashBoard_App {
 public static void main(String[] args) throws Exception {
 	SpringApplication.run(DeptConsumer_DashBoard_App.class, args);
 }
-
 }

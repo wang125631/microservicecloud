@@ -25,6 +25,7 @@
 	public IRule myRule(){
 		return new RetryRule();
 	}
+	
 5. 你也可以自定义负载均衡策略
 	
 	@SpringBootApplication
@@ -36,3 +37,5 @@
 		}
 	}
 	需要注意的是自定义的类不能在启动类所在包以及其子包下
+
+

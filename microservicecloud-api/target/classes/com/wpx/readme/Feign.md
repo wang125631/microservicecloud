@@ -12,15 +12,15 @@
 		</dependency>
 3. 在公共模块添加服务发布接口
 
-		/**
-		 * @FeignClient指定那个服务
-		 * 此接口方法的@RequestMapping为服务提供者的访问路径
-		 *  即服务 +  url 
-		 * @author wangpx
-		 *
-		 */
-		@FeignClient(value="MICROSERVICECLOUD-DEPT")
-		public interface DeptClientService {
+	/**
+	 * @FeignClient指定那个服务
+	 * 此接口方法的@RequestMapping为服务提供者的访问路径
+	 *  即服务 +  url 
+	 * @author wangpx
+	 *
+	 */
+	@FeignClient(value="MICROSERVICECLOUD-DEPT")
+	public interface DeptClientService {
 	
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
 	public Dept get(@PathVariable("id") long id);
