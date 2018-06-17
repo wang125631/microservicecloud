@@ -10,4 +10,4 @@ spring:
         git:
           uri: https://github.com/wang125631/microservicecloud-config.git
           username: wang125631
-          password: a6333486340
+          #password: ********* 

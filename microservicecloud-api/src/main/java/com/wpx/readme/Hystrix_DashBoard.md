@@ -1,4 +1,3 @@
-#Hystix
 
 1.说明
 	
@@ -42,5 +41,9 @@
 	}
 5.访问http://localhost:9001/hystrix/
 
+![](https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/test/resources/springcloud/hystrixdashboard.png)
 
-		 
+
+6.查看实现监控信息
+
+![](https://github.com/wang125631/microservicecloud/blob/master/microservicecloud-api/src/test/resources/springcloud/hystrixdashboard2.png)		 
